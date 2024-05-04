@@ -26,7 +26,7 @@ def xml_to_csv(path):
     xml_df = pd.DataFrame(xml_list, columns=column_name)
     return xml_df
 
-def main()
+def main():
     for folder in ['train','validation']
         image_path = os.path.join(os.getcwd(), ('images' + folder))
         xml_df = xml_to_csv(image_path)
